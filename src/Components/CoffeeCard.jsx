@@ -16,9 +16,9 @@ const CoffeeCard = ({ coffee }) => {
                 </div>
                 <div>
                     <div className="join join-vertical">
-                        <button className="btn join-item">D</button>
-                        <button className="btn join-item">U</button>
-                        <button className="btn join-item">X</button>
+                        <button className="btn join-item">View</button>
+                        <button className="btn join-item">Edit</button>
+                        <button className="btn join-item">Delete</button>
                     </div>
                 </div>
             </div>

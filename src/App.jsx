@@ -2,8 +2,8 @@ import { useLoaderData } from "react-router-dom"
 import CoffeeCard from "./Components/CoffeeCard";
 
 function App() {
-  const coffees = useLoaderData()
-  console.log(coffees);
+  const coffees = useLoaderData() ;
+  
   return (
     <div>
       <h1 className='text-4xl text-center text-amber-900'>Coffee Emporium</h1>
